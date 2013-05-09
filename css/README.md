@@ -1,15 +1,33 @@
 # CSS #
 
-## Normalize.css ##
-Set styles to be universal for operating system and browser.  Much better than reset.css as it doesn't obliterate useful styles.
 
-## Selectors ##
-### Id ###
-An Id should only be placed on elements that meet one of the following conditions
-1. Used for a javascript hook
-2. To create an anchor for jumping to sections within a document
-### Classes ###
-Classes should be the primary method for styling content.  The focus should be on making them highly reusable and decoupling structure from skin.  This is the primary stable of OOCSS
+## Best Practices
+
+### Normalize vs Reset
+1. Normalize **SHOULD** be used in favor of reset to prevent removing useful styles
+
+### Classes
+1. Classes **MUST** be in lowercase
+2. Classes **MUST** use a hyphen(-) to separate words
+`.home-header-link`
+3. Classes **MUST** be semantic and descriptive
+4. Classes **SHOULD** be abstracted into common classes for reusability if appearing many times per page
+
+### IDs
+1. ID's **MUST NOT** be used for styling multiple elements as they are not resuable
+2. ID's **MUST** appear only once per page
+3. ID's **MAY** be used to define top level page sections
+4. ID's **SHOULD** be used to define anchor points on a page
+
+### Properties & Values
+1. Shorthand properties are **RECOMMENDED** to reduce file size and increase readability
+2. Values 
+
+### Font
+1. Font-size **MUST** use rem units with a pixel fallback for older browsers
+2. <html> element **MUST** be styled using 62.5% for font-size to allow easy px to rem conversions and flexible typography
+
+
 
 ## Naming Convention ##
 Selectors should be named semantically to allow for readability.  The following format should be followed.

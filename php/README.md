@@ -1,0 +1,14 @@
+# PHP
+
+## Best Practices
+
+### PSR  
+All PSR guidelines should be followed as this is becoming community best practice.  These standards should provide the foundation for all other standards in PHP.  **Note:** All other sections proceeding this one are either not defined in PSR or are special cases.
+
+* [PSR 0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md)
+* [PSR 1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
+* [PSR 2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
+* [PSR 3](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md)
+
+### Class Properties
+1. Properties **MUST** be camelCase
