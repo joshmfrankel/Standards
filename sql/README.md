@@ -23,7 +23,6 @@
 When dealing with two tables that can be related to each other with multiple joins an intermediate table is required.  These table's naming convention should attempt to remain semantic unless no logical semantic name exists.  If the latter is the case then, concatenating the two tables in PascalCase is preferred.
 
 **Example**  
-* Reader Table  
-* Newspaper Table  
+(Reader Table --- Newspaper Table)
 1. Semantic Name: **Subscription**  
 2. Concatenate names: **ReaderNewspaper**  
