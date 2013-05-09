@@ -1,6 +1,5 @@
 # CSS #
 
-
 ## Best Practices
 
 ### Normalize vs Reset
@@ -26,12 +25,3 @@
 ### Font
 1. Font-size **MUST** use rem units with a pixel fallback for older browsers
 2. <html> element **MUST** be styled using 62.5% for font-size to allow easy px to rem conversions and flexible typography
-
-
-
-## Naming Convention ##
-Selectors should be named semantically to allow for readability.  The following format should be followed.
-
-	[type-of-element]-[specific-identifier]-[element description]
-	layout-home-navigation
-	icon-facebook
