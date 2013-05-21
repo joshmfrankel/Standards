@@ -1,3 +1,4 @@
+
 # PHP Best Practices
 
 ## Basis of Standards
@@ -10,12 +11,13 @@ All PSR guidelines **MUST** be followed as this is becoming community best pract
 * [PSR 2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
 * [PSR 3](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-3-logger-interface.md)
 
-* **Linter:** Sublime Linter (php -l) and Sublime Code Sniffer (PHPCS)
-
 ## Coding standards
 
 ### Class Properties
 1. Properties **MUST** be camelCase
+
+## Linter
+* **Linter:** Sublime Linter (php -l) and Sublime Code Sniffer (PHPCS)
 
 ## Documentation
 See [Universal standards](https://github.com/joshmfrankel/Standards#universal-standards)
@@ -29,3 +31,6 @@ See [Universal standards](https://github.com/joshmfrankel/Standards#universal-st
 functionality.  
 2. Applications and plugins **SHOULD** adopt a TDD approach to development which
 will reduce future bugs.
+
+### Class Properties
+1. Properties **MUST** be camelCase
