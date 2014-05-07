@@ -1,4 +1,7 @@
-# Coding Standards and Best Practices
+# Coding Standards and Best Practices  
+
+Josh Frankel  
+The standards I adhere to.  
 
 ## Table of Contents
 
